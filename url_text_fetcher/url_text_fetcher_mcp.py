@@ -112,7 +112,7 @@ def main() -> None:
    
     try:
         # Write to stderr immediately so LM Studio knows we're alive
-        print("PDF-tool MCP server starting...", file=sys.stderr)
+        print("URL-Text-Fetcher MCP server starting...", file=sys.stderr)
 
         # OPTIONAL: Add a tiny delay if you have heavy module imports
         # This gives LM Studio time to connect before your server is ready

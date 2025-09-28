@@ -14,7 +14,7 @@ requires-python = ">=3.8"
 
 dependencies = [
     "fastmcp>=2.0.0",
-    "bs4>=4.13.1",
+    "beautifulsoup4>=4.13.1",
     "pydantic",
     "requests"
 ]

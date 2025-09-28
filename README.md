@@ -1,6 +1,6 @@
-# Url webpage text fetcher with FastMCP for LLM/agents frontends such as LM-Studio
+# URL webpage text fetcher with FastMCP for LLM/agents frontends such as LM-Studio
 
-Url webpage text fetcher for FastMCP — fetch the main readable body text from a URL web page, with optional size limits.
+URL webpage text fetcher for FastMCP — fetch the main readable body text from a URL web page, with optional size limits.
 Designed to be used with via MCP protocol with LLMs frontends such as [LM Studio](https://lmstudio.ai).
 In addition, this tool can also fetch URL-links present on the fetched webpage.
 

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "url-text-fetcher"
+version = "0.1.0"
+description = "A FastMCP server tool to fetch the main readable body text from a URL web page for use with LLMs frontends such as LM-Studio"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Vadim-Dani Dubinsky", email = "dani.dubinsky@gmail.com"}]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "fastmcp>=2.0.0",
+    "bs4>=4.13.1",
+    "pydantic",
+    "requests"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "pytest",
+]
+
+[project.scripts]
+pdf-tool = "url_text_fetcher.url_text_fetcher_mcp:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
